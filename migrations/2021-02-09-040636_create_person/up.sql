@@ -1,0 +1,7 @@
+-- Your SQL goes here
+CREATE TABLE person (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    AGE INT NOT NULL,
+    GENDER VARCHAR NOT NULL
+)

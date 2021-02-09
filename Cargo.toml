@@ -1,0 +1,13 @@
+[package]
+name = "rustfs"
+version = "0.1.0"
+authors = ["Will Lane <williamlane923@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgres = "0.19.0"
+rocket = "0.4.6"
+diesel = { version = "1.4.4", features = ["postgres"] }
+dotenv = "0.15.0"
